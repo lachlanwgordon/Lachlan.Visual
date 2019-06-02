@@ -36,6 +36,10 @@
       <Project>{8AED0A09-4ECB-447E-9CB8-CCD8352D565C}</Project>
       <Name>Lachlan.Visual.iOS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Lachlan.Visual.Standard\Lachlan.Visual.Standard.csproj">
+      <Project>{29B13D32-EA7B-495C-8B8A-68404FF840EF}</Project>
+      <Name>Lachlan.Visual.Standard</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NuGet.Build.Packaging">
