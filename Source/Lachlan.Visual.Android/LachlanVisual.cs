@@ -16,8 +16,11 @@ namespace Lachlan.Visual
 
             foreach (var baseRendererType in baseRendererTypes)//Iterate over every material renderer
             {
-                var baseRendererElementProperty = baseRendererType.GetRuntimeProperties().FirstOrDefault(x => x.Name == "Element");//Find the type of the XamarinForms View that the render looks after
-                Xamarin.Forms.Internals.Registrar.Registered.Register(baseRendererElementProperty.PropertyType, baseRendererType, new[] { typeof(LachlanVisual) });//Register the renderer. This call is equivalent to the Export statements we usually put in our renderers.
+                var baseRendererElementProperty = baseRendererType.GetProperty("Element", BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance | BindingFlags.FlattenHierarchy);   //().FirstOrDefault(x => x.MemberType == MemberTypes.Property && x.Name == "Element") as PropertyInfo;//Find the type of the XamarinForms View that the render looks after
+                if (baseRendererElementProperty != null)
+                {
+                    Xamarin.Forms.Internals.Registrar.Registered.Register(baseRendererElementProperty.PropertyType, baseRendererType, new[] { typeof(LachlanVisual) });//Register the renderer. This call is equivalent to the Export statements we usually put in our renderers.
+                }
             }
         }
     }
