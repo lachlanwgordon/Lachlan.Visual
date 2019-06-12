@@ -180,6 +180,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LachlanVisual.cs" />
     <Compile Include="Renderers\AnyCaseButtonRenderer.cs" />
+    <Compile Include="Renderers\TitledPickerRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
