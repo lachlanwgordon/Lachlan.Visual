@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{149C54C4-1D7C-40A6-9980-69603DE8D9D7}</ProjectGuid>
-    <Description>Lachlan.Visual</Description>
+    <Description>Lachlan.Visual extends the Xamarin.Forms.Visual.Material with case preserving renderers and pickers with titles/hints.</Description>
     <PackageId>Lachlan.Visual</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
-    <Authors>lachlangordon</Authors>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Lachlan Gordon</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <OutputType>Exe</OutputType>
@@ -16,6 +16,14 @@
     <UsePartialTypes>false</UsePartialTypes>
     <AssemblyName>Lachlan.Visual.NuGet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Owners>Lachlan Gordon</Owners>
+    <Copyright>2019</Copyright>
+    <PackageTags>Xamarin Forms Material Design Visual</PackageTags>
+    <Title>Lachlan Visual</Title>
+    <Summary>Lachlan.Visual extends the Xamarin.Forms.Visual.Material with case preserving renderers and pickers with titles/hints.</Summary>
+    <PackageProjectUrl>https://github.com/lachlanwgordon/Lachlan.Visual</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
