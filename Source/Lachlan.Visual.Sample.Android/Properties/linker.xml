@@ -1,0 +1,13 @@
+<linker>
+  <assembly fullname="Lachlan.Visual.Sample">
+    <type fullname="Lachlan.Visual.Sample.Views.ItemsPage">
+      <method name=".ctor"/>
+    </type>
+    <type fullname="Lachlan.Visual.Sample.Views.AboutPage">
+      <method name=".ctor"/>
+    </type>
+  </assembly>
+  <assembly fullname="Lachlan.Visual">
+    <type fullname="Lachlan.Visual.Renderers.AnyCaseButtonRenderer"/>
+  </assembly>
+</linker>

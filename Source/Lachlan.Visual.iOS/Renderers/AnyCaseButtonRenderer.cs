@@ -5,7 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Material.iOS;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof(Button), typeof(AnyCaseButtonRenderer), new Type[] { typeof(LachlanVisual)})]
+[assembly: ExportRenderer(typeof(Button), typeof(AnyCaseButtonRenderer), new Type[] { typeof(LachlanVisual) })]
 namespace Lachlan.Visual.Renderers
 {
 

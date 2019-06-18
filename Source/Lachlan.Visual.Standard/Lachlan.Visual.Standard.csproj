@@ -13,6 +13,6 @@
 
  
     <ItemGroup>
-      <None Include="readme.txt" Pack="true"  />
+      <None Include="readme.txt" Pack="true" />
     </ItemGroup>
 </Project>
